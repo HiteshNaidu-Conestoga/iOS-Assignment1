@@ -24,7 +24,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lfi-cZ-wLw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-86899" y="-4399"/>
+            <point key="canvasLocation" x="-85972" y="-4542"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-87738" y="-4417"/>
+            <point key="canvasLocation" x="-86812" y="-4560"/>
         </scene>
         <!--Order-->
         <scene sceneID="Q7j-ef-M5i">
@@ -143,7 +143,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi customer!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1r-XJ-H5e">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="customer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1r-XJ-H5e">
                                 <rect key="frame" x="10" y="100" width="395" height="41"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="37"/>
                                 <nil key="textColor"/>
@@ -219,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBI-qI-cVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-85312" y="-4722"/>
+            <point key="canvasLocation" x="-84386.956521739135" y="-4864.402173913044"/>
         </scene>
         <!--Order Details-->
         <scene sceneID="Izw-95-OT5">
@@ -253,7 +253,7 @@ is confirmed.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gp6-Vu-y7e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-85314" y="-3967"/>
+            <point key="canvasLocation" x="-84387" y="-4110"/>
         </scene>
         <!--Item-->
         <scene sceneID="dRi-R1-Bms">
@@ -272,7 +272,7 @@ is confirmed.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eeg-xH-uWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-86141" y="-4735"/>
+            <point key="canvasLocation" x="-85214" y="-4877"/>
         </scene>
         <!--Item-->
         <scene sceneID="HXm-e3-Yus">
@@ -291,7 +291,7 @@ is confirmed.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRR-gk-ZAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-86225" y="-3967"/>
+            <point key="canvasLocation" x="-85299" y="-4110"/>
         </scene>
     </scenes>
     <resources>
