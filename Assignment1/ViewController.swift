@@ -19,6 +19,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func proceedBtn(_ sender: Any) {
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let myTabBarController = segue.destination as? TabBarViewController{
+            
+            myTabBarController.myname = custName.text
+        }
     }
 }
 
