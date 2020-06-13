@@ -17,6 +17,8 @@ class ProfileViewController : UIViewController {
     @IBOutlet weak var teaSwitch: UISwitch!
     @IBOutlet weak var smoothieSwitch: UISwitch!
     @IBOutlet weak var custLabel: UILabel!
+    
+    // global variables for class ProfileViewController
     var custName: String?
     var labelCoffee = ""
     var labelTea = ""
@@ -28,13 +30,13 @@ class ProfileViewController : UIViewController {
         super.viewDidLoad()
         
         custLabel.text = self.custName
-        
         coffeeSwitch.isOn = false
         teaSwitch.isOn = false
         smoothieSwitch.isOn = false
         
     }
     
+    // connection for slider object
     @IBAction func switchAction(_ sender: UISlider) {
         slider.value = roundf(slider.value)
         if slider.value == 1 {
@@ -44,10 +46,13 @@ class ProfileViewController : UIViewController {
         }
     }
     
+    // connection for logout button
     @IBAction func logout(_ sender: Any) {
+        // redirection to first screen
         dismiss(animated: true, completion: nil)
     }
     
+    // connection for coffee switch
     @IBAction func coffeeAction(_ sender: UISwitch) {
         if sender.isOn
         {
@@ -57,6 +62,7 @@ class ProfileViewController : UIViewController {
         }
     }
     
+    // connection for tea switch
     @IBAction func teaAction(_ sender: UISwitch) {
         if sender.isOn{
             labelTea = " tea selected,"
@@ -65,6 +71,7 @@ class ProfileViewController : UIViewController {
         }
     }
     
+    // connection for smoothie switch
     @IBAction func smoothieAtn(_ sender: UISwitch) {
         if sender.isOn{
             labelSmoothie = " smoothie selected,"
@@ -73,10 +80,12 @@ class ProfileViewController : UIViewController {
         }
     }
     
+    // connection for confirm order button
     @IBAction func confirmOrder(_ sender: Any) {
         performSegue(withIdentifier: "confirm", sender: self)
     }
     
+    // sharing order details data to order details screen using segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let viewCtrl = segue.destination as! ProfileViewController2
         if labelCoffee == "" && labelTea == "" && labelSmoothie == "" {

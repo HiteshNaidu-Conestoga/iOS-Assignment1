@@ -21,10 +21,9 @@ class ProfileViewController2 : UIViewController {
         orderDetails.text = self.label
     }
     
+    // connection for logout button
     @IBAction func logout(_ sender: Any) {
+        // redirection to first screen
         dismiss(animated: true, completion: nil)
     }
-    
-    
-    
 }

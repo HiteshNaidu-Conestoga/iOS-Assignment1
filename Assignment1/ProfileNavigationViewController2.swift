@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// NavigationControllerClass2 for ProfileViewController2
 class ProfileNavigationViewController2 : UINavigationController{
     override func viewDidLoad() {
         super.viewDidLoad()
