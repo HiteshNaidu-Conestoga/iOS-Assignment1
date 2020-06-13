@@ -10,12 +10,15 @@ import Foundation
 import UIKit
 
 class ProfileViewController2 : UIViewController {
+    var label = ""
     
-    @IBOutlet weak var myOrderDetail: UILabel!
+//    @IBOutlet weak var testLabel: UILabel!
+//    @IBOutlet weak var myOrderDetail: UILabel!
+    @IBOutlet weak var orderDetails: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        orderDetails.text = self.label
     }
     
     @IBAction func logout(_ sender: Any) {

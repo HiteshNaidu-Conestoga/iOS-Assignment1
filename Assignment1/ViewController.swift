@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // object connection from screen to code
     @IBOutlet weak var custName: UITextField!
     
     override func viewDidLoad() {
@@ -18,9 +19,10 @@ class ViewController: UIViewController {
     
     }
     
+    // object connection from code to screen
     @IBAction func proceedBtn(_ sender: Any) {
-        
     }
+    // sending customer name to TabBarViewController through Segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let myTabBarController = segue.destination as? TabBarViewController{
             

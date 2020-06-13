@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -24,28 +24,28 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lfi-cZ-wLw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-85972" y="-4542"/>
+            <point key="canvasLocation" x="-83917" y="-3953"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="LUw-fn-jiT">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cool Your Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zme-YH-dJL">
-                                <rect key="frame" x="56.333333333333343" y="50" width="301.33333333333326" height="40.666666666666657"/>
+                                <rect key="frame" x="56.333333333333343" y="94" width="301.33333333333326" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="37"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J3p-ha-XPe">
-                                <rect key="frame" x="56" y="190.66666666666666" width="301" height="42"/>
+                                <rect key="frame" x="56" y="234.66666666666666" width="301" height="41.999999999999972"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="pyp-8O-xiX"/>
                                 </constraints>
@@ -53,7 +53,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOl-g3-WNV">
-                                <rect key="frame" x="106" y="369.66666666666669" width="200" height="51"/>
+                                <rect key="frame" x="106" y="413.66666666666669" width="200" height="51"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="8Be-8G-HG5"/>
@@ -94,14 +94,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-86812" y="-4560"/>
+            <point key="canvasLocation" x="-84759" y="-3971"/>
         </scene>
         <!--Order-->
         <scene sceneID="Q7j-ef-M5i">
             <objects>
                 <viewController id="4cF-2q-D3N" customClass="ProfileViewController" customModule="Assignment1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9YX-po-xbi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bUy-q0-ODD">
@@ -118,12 +118,18 @@
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ISh-W7-MVA">
                                 <rect key="frame" x="249" y="331" width="51" height="31"/>
+                                <connections>
+                                    <action selector="smoothieAtn:" destination="4cF-2q-D3N" eventType="valueChanged" id="alS-5k-AIQ"/>
+                                </connections>
                             </switch>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="36k-xQ-I3C">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="36k-xQ-I3C">
                                 <rect key="frame" x="57" y="421" width="300" height="31"/>
                                 <color key="minimumTrackTintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="maximumTrackTintColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="thumbTintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="switchAction:" destination="4cF-2q-D3N" eventType="valueChanged" id="Ggc-LR-Ouk"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coffee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="km9-BX-Hn2">
                                 <rect key="frame" x="114" y="191" width="67" height="28"/>
@@ -171,6 +177,9 @@
                                 <state key="normal" title="Confirm Order">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="confirmOrder:" destination="4cF-2q-D3N" eventType="touchUpInside" id="x2H-jW-jsE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.18518146718992137" green="0.67604152667878892" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -213,34 +222,38 @@
                     <connections>
                         <outlet property="coffeeSwitch" destination="bUy-q0-ODD" id="59f-iy-T6B"/>
                         <outlet property="custLabel" destination="q1r-XJ-H5e" id="ZVa-2c-JKC"/>
-                        <outlet property="smoothieSwitch" destination="ISh-W7-MVA" id="7rT-gm-au8"/>
+                        <outlet property="slider" destination="36k-xQ-I3C" id="EPt-Pw-3nQ"/>
+                        <outlet property="smoothieSwitch" destination="ISh-W7-MVA" id="KSI-sB-jNS"/>
                         <outlet property="teaSwitch" destination="nvj-QD-lmV" id="cRq-iL-kcL"/>
+                        <segue destination="5nI-wg-KI5" kind="show" identifier="confirm" id="A9W-Mg-9Pm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBI-qI-cVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84386.956521739135" y="-4864.402173913044"/>
+            <point key="canvasLocation" x="-82330" y="-4275"/>
         </scene>
         <!--Order Details-->
         <scene sceneID="Izw-95-OT5">
             <objects>
                 <viewController id="5nI-wg-KI5" customClass="ProfileViewController2" customModule="Assignment1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Do-5n-DO7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swE-Qk-kOu">
-                                <rect key="frame" x="20" y="104" width="374" height="440"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Your order for
-{1} {M} coffee {2} {M} tea {3} {L} smoothie
-is confirmed.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please confirm your order to see the order details here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swE-Qk-kOu">
+                                <rect key="frame" x="20" y="104" width="374" height="532"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.18518146720000001" green="0.67604152669999995" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="swE-Qk-kOu" secondAttribute="bottom" constant="123" id="VPV-NM-N2K"/>
+                            <constraint firstItem="swE-Qk-kOu" firstAttribute="trailing" secondItem="3Do-5n-DO7" secondAttribute="trailingMargin" id="bHQ-xM-D10"/>
+                            <constraint firstItem="swE-Qk-kOu" firstAttribute="top" secondItem="3Do-5n-DO7" secondAttribute="topMargin" constant="48" id="glc-Y9-UBA"/>
+                            <constraint firstItem="swE-Qk-kOu" firstAttribute="leading" secondItem="3Do-5n-DO7" secondAttribute="leadingMargin" id="wdg-mU-lT4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FxG-YZ-dwy"/>
                     </view>
                     <navigationItem key="navigationItem" title="Order Details" id="5pe-m9-2Ju">
@@ -250,16 +263,19 @@ is confirmed.</string>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="orderDetails" destination="swE-Qk-kOu" id="B9K-vu-5C9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gp6-Vu-y7e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84387" y="-4110"/>
+            <point key="canvasLocation" x="-82330" y="-3522"/>
         </scene>
-        <!--Item-->
+        <!--Order-->
         <scene sceneID="dRi-R1-Bms">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nye-HQ-psv" customClass="ProfileNavigationViewController" customModule="Assignment1" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="fdf-4u-0De"/>
+                    <tabBarItem key="tabBarItem" title="Order" id="fdf-4u-0De"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JcD-Cb-tZr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -272,13 +288,13 @@ is confirmed.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eeg-xH-uWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-85214" y="-4877"/>
+            <point key="canvasLocation" x="-83159" y="-4287"/>
         </scene>
-        <!--Item-->
+        <!--Order Details-->
         <scene sceneID="HXm-e3-Yus">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HGX-9U-yCf" customClass="ProfileNavigationViewController2" customModule="Assignment1" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="nbc-ap-aoG"/>
+                    <tabBarItem key="tabBarItem" title="Order Details" id="nbc-ap-aoG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5av-c0-RKH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -291,9 +307,12 @@ is confirmed.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRR-gk-ZAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-85299" y="-4110"/>
+            <point key="canvasLocation" x="-83242" y="-3521"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="1ue-hq-HOj"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="640" height="426"/>
     </resources>
