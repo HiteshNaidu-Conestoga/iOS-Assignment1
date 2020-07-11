@@ -87,12 +87,15 @@ class ProfileViewController : UIViewController {
     
     // sharing order details data to order details screen using segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        let viewCtrl = segue.destination as! ProfileViewController2
-        if labelCoffee == "" && labelTea == "" && labelSmoothie == "" {
-            finalLabel = "Please select any beverage"
-        } else {
-            finalLabel = "\(labelCoffee)\(labelTea)\(labelSmoothie)\(size)"
-        }
-        viewCtrl.label = self.finalLabel
+//        let viewCtrl = segue.destination as! ProfileViewController2
+//        if labelCoffee == "" && labelTea == "" && labelSmoothie == "" {
+//            finalLabel = "Please select any beverage"
+//        } else {
+//            finalLabel = "\(labelCoffee)\(labelTea)\(labelSmoothie)\(size)"
+//        }
+//        viewCtrl.label = self.finalLabel
+        
+        let tableViewCtrl = segue.destination as! OrderListTableViewController
+        
     }
 }

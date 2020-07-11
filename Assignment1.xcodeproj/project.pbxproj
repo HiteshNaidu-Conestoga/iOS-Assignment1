@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		87DED6DF2492FA6900906307 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DED6DE2492FA6900906307 /* ProfileViewController.swift */; };
-		87DED6E12492FCA800906307 /* ProfileViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DED6E02492FCA800906307 /* ProfileViewController2.swift */; };
 		87DED6E32492FDA700906307 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DED6E22492FDA700906307 /* TabBarViewController.swift */; };
 		87DED6E52492FDC100906307 /* ProfileNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DED6E42492FDC100906307 /* ProfileNavigationViewController.swift */; };
-		87DED6E72492FFDD00906307 /* ProfileNavigationViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DED6E62492FFDD00906307 /* ProfileNavigationViewController2.swift */; };
+		B926793524BA79B80020F103 /* OrderListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926793424BA79B80020F103 /* OrderListTableViewController.swift */; };
 		B97F6C8E2491984700DB94D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F6C8D2491984700DB94D4 /* AppDelegate.swift */; };
 		B97F6C902491984700DB94D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F6C8F2491984700DB94D4 /* SceneDelegate.swift */; };
 		B97F6C922491984700DB94D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F6C912491984700DB94D4 /* ViewController.swift */; };
@@ -22,10 +21,9 @@
 
 /* Begin PBXFileReference section */
 		87DED6DE2492FA6900906307 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		87DED6E02492FCA800906307 /* ProfileViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController2.swift; sourceTree = "<group>"; };
 		87DED6E22492FDA700906307 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		87DED6E42492FDC100906307 /* ProfileNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationViewController.swift; sourceTree = "<group>"; };
-		87DED6E62492FFDD00906307 /* ProfileNavigationViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigationViewController2.swift; sourceTree = "<group>"; };
+		B926793424BA79B80020F103 /* OrderListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTableViewController.swift; sourceTree = "<group>"; };
 		B97F6C8A2491984700DB94D4 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97F6C8D2491984700DB94D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B97F6C8F2491984700DB94D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,10 +72,9 @@
 				B97F6C982491984800DB94D4 /* LaunchScreen.storyboard */,
 				B97F6C9B2491984800DB94D4 /* Info.plist */,
 				87DED6DE2492FA6900906307 /* ProfileViewController.swift */,
-				87DED6E02492FCA800906307 /* ProfileViewController2.swift */,
 				87DED6E22492FDA700906307 /* TabBarViewController.swift */,
 				87DED6E42492FDC100906307 /* ProfileNavigationViewController.swift */,
-				87DED6E62492FFDD00906307 /* ProfileNavigationViewController2.swift */,
+				B926793424BA79B80020F103 /* OrderListTableViewController.swift */,
 			);
 			path = Assignment1;
 			sourceTree = "<group>";
@@ -153,10 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87DED6E12492FCA800906307 /* ProfileViewController2.swift in Sources */,
 				B97F6C922491984700DB94D4 /* ViewController.swift in Sources */,
 				B97F6C8E2491984700DB94D4 /* AppDelegate.swift in Sources */,
-				87DED6E72492FFDD00906307 /* ProfileNavigationViewController2.swift in Sources */,
+				B926793524BA79B80020F103 /* OrderListTableViewController.swift in Sources */,
 				87DED6DF2492FA6900906307 /* ProfileViewController.swift in Sources */,
 				87DED6E52492FDC100906307 /* ProfileNavigationViewController.swift in Sources */,
 				87DED6E32492FDA700906307 /* TabBarViewController.swift in Sources */,
